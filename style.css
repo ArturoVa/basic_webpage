@@ -179,10 +179,23 @@ ul{
 }
 
 .container-4 button{
-    color: white;
-    border: 2px solid white;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
     background-color: inherit;
     border-radius: 6px;
     font-size: 20px;
     padding: 10px 20px;
+}
+
+/*Here is where footer beggins*/
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    align-content: center;
+    justify-content: center;
+}
+.footer .text{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 16px;
 }
