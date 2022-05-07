@@ -168,13 +168,21 @@ ul{
     font-weight: bold
 }
 .container-4 .mini-container{
-    background-color:darkblue;
+    background-color:rgb(28, 28, 119);
     color:#e5e7eb;
     display:flex;
     width: 800px;
     height: 150px;
     justify-content: space-around;
-    align-items: center;
-
+    align-items: center;   
     border-radius: 10px;
+}
+
+.container-4 button{
+    color: white;
+    border: 2px solid white;
+    background-color: inherit;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 20px;
 }
