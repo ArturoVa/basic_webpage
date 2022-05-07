@@ -5,33 +5,63 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* Container 1 general settings*/
 .container-1{
     background:   #1f2937;
+    color: white;
     display: flex;
     flex-direction: column;
 
+
 }
+
 .head-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
+}
+/*Left-top logo settings*/
+.logo{
+    font-size: 36px;
+    font-family: roboto;
+    font-weight: 900;
+    font-style: italic;
+    padding: 0 10px;
+
+}
+/* general setting for ul */
+ul{
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+}
+/*Setting for the top links*/
+.links li{
+    gap: 16px;
 
 }
 .head-content{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 
 }
+.para{
+    width: 300px;
+}
+
 img{
     max-width: 300px;
     height: auto;
 }
+
 .container-1 ul{
     display: flex;
     margin: 0;
     padding: 0;
 }
+
 .container-4{
     background: #e5e7eb;
     
