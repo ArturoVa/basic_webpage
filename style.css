@@ -53,12 +53,27 @@ ul{
 /*Header paragraph settings*/
 .para{
     width: 300px;
+    
+}
+/*Paragraph content settings*/
+.para .content{
+    padding: 16px 0;
 }
 
 /*Paragraph title of the header font settings*/
 .para-title{
     font-size: 48px;
     font-weight: 900;
+}
+/*header button setting*/
+.head-content button{
+    background-color:cadetblue;
+    border-radius: 6px;
+    border-color: none;
+    border: 0;
+    color: crimson;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 img{
     max-width: 400px;
