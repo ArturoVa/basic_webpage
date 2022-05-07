@@ -5,6 +5,23 @@ body{
     margin: 0;
     padding: 0;
 }
+a{
+    padding: 4px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    background-color:darkviolet;
+    border-radius: 10px;
+}
+.button{
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: white;
+    color:green;
+}
 /* Container 1 general settings*/
 .container-1{
     background:   #1f2937;
