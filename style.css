@@ -14,7 +14,7 @@ body{
 
 
 }
-
+/*First part of the container*/
 .head-header{
     display: flex;
     justify-content: space-around;
@@ -41,10 +41,12 @@ ul{
     gap: 16px;
 
 }
+/*Second part of the first container*/
 .head-content{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 450px;
 
 }
 .para{
