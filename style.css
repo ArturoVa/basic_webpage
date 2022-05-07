@@ -96,6 +96,14 @@ ul{
     align-items: center;
     justify-content: center;
 }
+.container-2 .content{
+    display: flex;
+}
+.container-2 .square{
+    width: 100px;
+    height: 100px;
+
+}
 .container-2 .header{
 
 
