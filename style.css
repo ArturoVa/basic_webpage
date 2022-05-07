@@ -97,12 +97,17 @@ ul{
 }
 .container-2 .content{
     display: flex;
+    gap: 20px;
 }
 .container-2 .square{
     border:6px solid chocolate;
     height: 100px;
     width:  auto;
+    margin: 10px 0;
 
+}
+.container-2 .text{
+    text-align: center;
 }
 .container-2 .item{
     width: 150px;
