@@ -52,7 +52,6 @@ ul{
 /*Header paragraph settings*/
 .para{
     width: 300px;
-    flex-shrink: 1;
     
 }
 /*Paragraph content settings*/
@@ -100,17 +99,20 @@ ul{
     display: flex;
 }
 .container-2 .square{
-    width: 100px;
+    border:6px solid chocolate;
     height: 100px;
+    width:  auto;
 
+}
+.container-2 .item{
+    width: 150px;
+    height: auto;
 }
 /*header attributes*/
 .container-2 .header{
     font-size: 36px;
     font-weight: 900;
     font-family: Impact;
-
-
 }
 
 .container-4{
