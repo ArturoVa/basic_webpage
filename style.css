@@ -139,6 +139,10 @@ ul{
     font-style: italic;
     color: #1f2937;
     max-width: 800px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-height: 400px;
+
 }
 .container-3 .author{
     align-self: flex-end;
@@ -146,7 +150,7 @@ ul{
     font-size: 26px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
-
+    flex-shrink: 0;
 
 }
 /*Here beggins container-4 settings*/
@@ -158,8 +162,19 @@ ul{
     
     
 }
+
+.container-4 .header {
+    font-size: 30px;
+    font-weight: bold
+}
 .container-4 .mini-container{
     background-color:darkblue;
     color:#e5e7eb;
     display:flex;
+    width: 800px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
 }
