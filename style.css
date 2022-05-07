@@ -78,7 +78,7 @@ ul{
     text-align: center;
     padding: 10px 30px;
 }
-img{
+.container-1 .image-holder img{
     max-width: 400px;
     height: auto;
 }
@@ -87,6 +87,12 @@ img{
     display: flex;
     margin: 0;
     padding: 0;
+}
+/*This is where Container 2 begins*/
+.container-2{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
 }
 
 .container-4{
